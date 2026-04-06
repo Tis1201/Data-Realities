@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "auth_session",
-      "value": "hm2kvbigain5uyizticnbkx6dtv424vliqxqwdvh",
+      "value": "rigurrg6ytvxvhm56zpdmexpgmaf5lij3aragufv",
       "domain": "app-dev-v2.datarealities.com",
       "path": "/",
-      "expires": 1778035851.598233,
+      "expires": 1778055106.52877,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
@@ -15,7 +15,7 @@
       "value": "cmlhwqca4000y8sicue7x9f1q",
       "domain": "app-dev-v2.datarealities.com",
       "path": "/",
-      "expires": 1778035851.92759,
+      "expires": 1778055106.906617,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"

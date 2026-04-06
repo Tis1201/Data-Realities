@@ -1,0 +1,360 @@
+index.js:70 [LENS-CORE-RENDERER]: loading finished for /Users/bachsoda/Library/Application Support/Lens/lens-local-storage/app.json
+index.js:70 [LOCAL-STORAGE]: initialized
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-application-is-loading-injection-token" took 28.4 ms.
+
+Individual runnables took:
+- cluster-common:storage-initialization                    	26.7 ms
+- local-storage-feature:run-initialization-of-local-storage	24 ms  
+- user-preferences:storage-initialization                  	21 ms  
+- lens-core-renderer:initialize-lens-local-storage-state   	17.4 ms
+- messaging:start-listening-of-channels                    	0.5 ms 
+- chart-feature:register-chart-injectable                  	0.2 ms 
+- chart-plugins:register-highest-max-injectable            	0.1 ms 
+- chart-plugins:register-annotation-injectable             	0 ms   
+- chart-plugins:register-zoom-plugin-injectable            	0 ms   
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-frame-starts-first" took 16.3 ms.
+
+Individual runnables took:
+- internal-proxy-renderer:setup-lens-proxy-certificate	15.4 ms
+- lens-core-renderer:preload-terminal-fonts           	12.4 ms
+- lens-core-renderer:configure-mobx                   	0 ms   
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-main-frame-starts-first" took 0.4 ms.
+
+Individual runnables took:
+- network-renderer:setup-window-offline                 	0 ms
+- network-renderer:setup-window-online                  	0 ms
+- token-refresher-for-renderer:on-focus-gain-token-setup	0 ms
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-frame-starts-second" took 17.4 ms.
+
+Individual runnables took:
+- theme-renderer-feature:initialize-system-theme-type                            	16.9 ms
+- lens-core-renderer:setup-cluster-state-sync                                    	11.7 ms
+- lens-core-renderer:setup-system-ca                                             	11.2 ms
+- lens-core-renderer:enabled-extensions-persistent-storage-version-initialization	11.1 ms
+- lens-core-renderer:provide-initial-values-for-sync-boxes                       	10.4 ms
+- lens-core-renderer:load-monaco-themes                                          	5.3 ms 
+- lens-core-renderer:init-file-system-provisioner-store                          	1.4 ms 
+- lens-core-renderer:setup-logging-for-navigation                                	0.7 ms 
+- lens-core-renderer:setup-root-mac-classname                                    	0 ms   
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-main-frame-starts-second" took 6.7 ms.
+
+Individual runnables took:
+- lens-core-renderer:bind-protocol-add-route-handlers	6.6 ms
+index.js:70 [EXTENSIONS-LOADER]: auto initializing extensions
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "on-load-of-application" took 281.3 ms.
+
+Individual runnables took:
+- lens-core-renderer:load-legacy-extensions-after-start-frame                          	236.1 ms
+- lens-core-renderer:start-frame                                                       	41.3 ms 
+- lens-id-auth:clear-invalid-tokens-on-load                                            	37.6 ms 
+- main-view-feature:start-for-start-updating-on-selected-tab-change-handlers           	35.3 ms 
+- main-view-feature:initialize-running-on-selected-tab-change                          	35.2 ms 
+- create-resource-tab-feature:migrate-all-create-resource-tab-data-on-application-start	33.9 ms 
+- edit-resource-tab-feature:migrate-all-edit-resource-tab-data-on-application-start    	33.7 ms 
+- terminal-dock-tab:migrate-all-terminal-dock-tab-data-on-application-start            	33.7 ms 
+- upgrade-chart:migrate-all-upgrade-chart-tab-data-on-application-start                	33.7 ms 
+- pod-logs-feature:migrate-all-pod-logs-tab-data-on-application-start                  	33.4 ms 
+- install-helm-chart-tab-feature:migrate-all-install-helm-tab-data-on-application-start	33.4 ms 
+- lens-id:initialize-auth-token-store-runnable                                         	32 ms   
+- lens-id:initialize-lens-cloud-status-store-runnable                                  	31 ms   
+- cluster-manager-renderer:start-emitting-telemetry-on-load                            	25.3 ms 
+- preferences-for-renderer:start-for-active-page-id-telemetry-emitter                  	16.1 ms 
+- main-view-feature:remove-corrupted-tabs-on-startup                                   	16 ms   
+- local-storage-feature:write-changed-local-storage                                    	15.8 ms 
+- kubernetes-resources:migrate-legacy-local-storage-data-to-persisted-state            	15.7 ms 
+- lens-core-renderer:updating-is-enabled-initialization                                	15.5 ms 
+- cluster-page-feature:start-for-subscribe-dependent-stores                            	14 ms   
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "after-application-is-loaded-injection-token" took 47.8 ms.
+
+Individual runnables took:
+- entity-aggregator-renderer:migration-for-entity-aggregator-timing        	46.8 ms
+- telemetry-use-cases:after-app-load-check-arm-64-translation              	45.8 ms
+- survey-renderer-feature:start-for-identify-user-on-access-token-change   	44.9 ms
+- demo-cluster-feature:start-for-ensure-demo-cluster-access-after-startup  	41.2 ms
+- release-notes-renderer:show-release-notes-on-startup                     	40.8 ms
+- terminal-dock-tab:ensure-initial-terminal-tab                            	38.3 ms
+- initial-navigator-expansion:expand-initial-navigator-folders-on-startup  	37.4 ms
+- telemetry-use-cases:start-for-general-app-data-reporter                  	11 ms  
+- telemetry-feature:start-for-daily-events                                 	5.6 ms 
+- main-view-feature:start-for-select-tab-first-visible-tab-when-tabs-change	5.3 ms 
+- welcome-for-renderer:show-welcome-page-on-startup                        	4.9 ms 
+- react-application:start-for-render-application-when-application-is-ready 	4.8 ms 
+- lens-id-auth:start-for-close-tabs-on-unregister                          	4.8 ms 
+- kube-applications:application-telemetry-sender-start                     	1.4 ms 
+- lens-id:setup-running-of-on-authenticated-callbacks                      	0.4 ms 
+- application-electron-renderer-feature:closing-of-application             	0 ms   
+- chart-plugins:register-moment-adapter-injectable                         	0 ms   
+- lens-spaces-renderer:check-refresh-token-validity                        	0 ms   
+index.js:70 [LENS-CORE-RENDERER]: loading finished for /Users/bachsoda/Library/Application Support/Lens/lens-local-storage/d6a047d07309a9f2b5468762de95605f.json
+index.js:70 [LOCAL-STORAGE]: initialized
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-application-is-loading-injection-token" took 43.6 ms.
+
+Individual runnables took:
+- cluster-common:storage-initialization                    	42.9 ms
+- local-storage-feature:run-initialization-of-local-storage	42 ms  
+- user-preferences:storage-initialization                  	20.8 ms
+- lens-core-renderer:initialize-lens-local-storage-state   	14.5 ms
+- messaging:start-listening-of-channels                    	0.2 ms 
+- chart-feature:register-chart-injectable                  	0.1 ms 
+- chart-plugins:register-annotation-injectable             	0 ms   
+- chart-plugins:register-highest-max-injectable            	0 ms   
+- chart-plugins:register-zoom-plugin-injectable            	0 ms   
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-frame-starts-first" took 14.9 ms.
+
+Individual runnables took:
+- internal-proxy-renderer:setup-lens-proxy-certificate	14.4 ms
+- lens-core-renderer:preload-terminal-fonts           	7.1 ms 
+- lens-core-renderer:configure-mobx                   	0 ms   
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-cluster-frame-starts-first" took 0 ms.
+
+Individual runnables took:
+
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-frame-starts-second" took 7.3 ms.
+
+Individual runnables took:
+- theme-renderer-feature:initialize-system-theme-type                            	6.9 ms
+- lens-core-renderer:setup-cluster-state-sync                                    	6.9 ms
+- lens-core-renderer:setup-system-ca                                             	6.4 ms
+- lens-core-renderer:provide-initial-values-for-sync-boxes                       	6.4 ms
+- lens-core-renderer:enabled-extensions-persistent-storage-version-initialization	6.3 ms
+- lens-core-renderer:init-file-system-provisioner-store                          	0.4 ms
+- lens-core-renderer:load-monaco-themes                                          	0.1 ms
+- lens-core-renderer:setup-logging-for-navigation                                	0.1 ms
+- lens-core-renderer:setup-root-mac-classname                                    	0 ms  
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 Loading items Object
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-cluster-frame-starts-second" took 4003.9 ms.
+
+Individual runnables took:
+- lens-core-renderer:wait-for-cluster-to-be-ready-during-start-of-frame	3995.6 ms
+- lens-core-renderer:setup-auto-registration                           	6.6 ms   
+index.js:70 [EXTENSIONS-LOADER]: auto initializing extensions
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "on-load-of-application" took 4030.5 ms.
+
+Individual runnables took:
+- lens-core-renderer:start-frame                                                       	4027 ms
+- main-view-feature:start-for-start-updating-on-selected-tab-change-handlers           	29.8 ms
+- lens-id-auth:clear-invalid-tokens-on-load                                            	27.7 ms
+- create-resource-tab-feature:migrate-all-create-resource-tab-data-on-application-start	23.1 ms
+- edit-resource-tab-feature:migrate-all-edit-resource-tab-data-on-application-start    	23.1 ms
+- terminal-dock-tab:migrate-all-terminal-dock-tab-data-on-application-start            	23 ms  
+- upgrade-chart:migrate-all-upgrade-chart-tab-data-on-application-start                	21.9 ms
+- pod-logs-feature:migrate-all-pod-logs-tab-data-on-application-start                  	21.7 ms
+- install-helm-chart-tab-feature:migrate-all-install-helm-tab-data-on-application-start	21.7 ms
+- lens-id:initialize-auth-token-store-runnable                                         	18.1 ms
+- lens-id:initialize-lens-cloud-status-store-runnable                                  	17.8 ms
+- cluster-manager-renderer:start-emitting-telemetry-on-load                            	16.7 ms
+- preferences-for-renderer:start-for-active-page-id-telemetry-emitter                  	16.1 ms
+- kubernetes-resources:migrate-legacy-local-storage-data-to-persisted-state            	15.8 ms
+- lens-core-renderer:updating-is-enabled-initialization                                	14.7 ms
+- local-storage-feature:write-changed-local-storage                                    	9.7 ms 
+- cluster-page-feature:start-for-subscribe-dependent-stores                            	9 ms   
+- main-view-feature:initialize-running-on-selected-tab-change                          	2.6 ms 
+- main-view-feature:remove-corrupted-tabs-on-startup                                   	2.1 ms 
+- lens-core-renderer:load-legacy-extensions-after-start-frame                          	0.4 ms 
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "after-application-is-loaded-injection-token" took 183.9 ms.
+
+Individual runnables took:
+- survey-renderer-feature:start-for-identify-user-on-access-token-change   	181 ms 
+- release-notes-renderer:show-release-notes-on-startup                     	97.8 ms
+- initial-navigator-expansion:expand-initial-navigator-folders-on-startup  	95.8 ms
+- react-application:start-for-render-application-when-application-is-ready 	2.4 ms 
+- telemetry-feature:start-for-daily-events                                 	2.4 ms 
+- main-view-feature:start-for-select-tab-first-visible-tab-when-tabs-change	2.3 ms 
+- lens-id-auth:start-for-close-tabs-on-unregister                          	2.1 ms 
+- telemetry-use-cases:start-for-general-app-data-reporter                  	2.1 ms 
+- entity-aggregator-renderer:migration-for-entity-aggregator-timing        	2 ms   
+- demo-cluster-feature:start-for-ensure-demo-cluster-access-after-startup  	2 ms   
+- kube-applications:application-telemetry-sender-start                     	2 ms   
+- terminal-dock-tab:ensure-initial-terminal-tab                            	1.8 ms 
+- welcome-for-renderer:show-welcome-page-on-startup                        	1.8 ms 
+- telemetry-use-cases:after-app-load-check-arm-64-translation              	1.7 ms 
+- lens-id:setup-running-of-on-authenticated-callbacks                      	0.2 ms 
+- chart-plugins:register-moment-adapter-injectable                         	0.1 ms 
+- application-electron-renderer-feature:closing-of-application             	0 ms   
+- lens-spaces-renderer:check-refresh-token-validity                        	0 ms   
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 Loading items Object
+index.js:70 watchNamespace starting Object
+index.js:70 [KUBE-API-SPECIFICS]: watch (namespace-1) started /api/v1/namespaces?watch=1&resourceVersion=1766648459246340000
+index.js:70 [INTERNAL-PROXY]: watch (namespace-1) started /api/v1/namespaces?watch=1&resourceVersion=1766648459246340000
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [INTERNAL-PROXY]: watch (customresourcedefinition-1) started /apis/apiextensions.k8s.io/v1/customresourcedefinitions?watch=1&resourceVersion=1766648459173373000
+index.js:70 watchNamespace starting Object
+index.js:70 [KUBE-API-SPECIFICS]: watch (customresourcedefinition-1) started /apis/apiextensions.k8s.io/v1/customresourcedefinitions?watch=1&resourceVersion=1766648459967586000
+index.js:70 [KUBE-API-SPECIFICS]: watch (namespace-1) aborted /api/v1/namespaces?watch=1&resourceVersion=1766648459246340000
+index.js:70 [KUBE-API-SPECIFICS]: watch (customresourcedefinition-1) aborted /apis/apiextensions.k8s.io/v1/customresourcedefinitions?watch=1&resourceVersion=1766648459967586000
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "on-closing-of-application-injection-token" took 2.4 ms.
+
+Individual runnables took:
+- with-auto-dispose:dispose-on-close-of-application                        	1.2 ms
+- react-application:stop-for-render-application-when-application-is-ready  	0.7 ms
+- local-storage-feature:stop-writing-changed-local-storage                 	0.7 ms
+- fs-feature:automatic-dispose-of-watchers-on-closing-of-application       	0.6 ms
+- telemetry-feature:stop-for-daily-events                                  	0.6 ms
+- main-view-feature:stop-for-select-tab-first-visible-tab-when-tabs-change 	0.6 ms
+- main-view-feature:stop-for-start-updating-on-selected-tab-change-handlers	0.6 ms
+- legacy-api-manager:cleanup-api-manager-auto-run-on-close                 	0.3 ms
+- preferences-for-renderer:stop-for-active-page-id-telemetry-emitter       	0.3 ms
+- lens-core-renderer:deactivate-extensions-on-close                        	0.3 ms
+- telemetry-use-cases:stop-for-general-app-data-reporter                   	0.3 ms
+- demo-cluster-feature:stop-for-ensure-demo-cluster-access-after-startup   	0.3 ms
+- kube-applications:application-telemetry-sender-stop                      	0.3 ms
+- survey-renderer-feature:stop-for-identify-user-on-access-token-change    	0.3 ms
+- cluster-page-feature:stop-for-subscribe-dependent-stores                 	0.2 ms
+- lens-id-auth:stop-for-close-tabs-on-unregister                           	0.2 ms
+- migrations:abort-on-quit-of-application                                  	0.1 ms
+- messaging:stop-listening-of-channels                                     	0 ms  
+- terminal-dock-tab:stop-ensuring-initial-terminal-tab-on-quit             	0 ms  
+index.js:70 [LENS-CORE-RENDERER]: loading finished for /Users/bachsoda/Library/Application Support/Lens/lens-local-storage/d6a047d07309a9f2b5468762de95605f.json
+index.js:70 [LOCAL-STORAGE]: initialized
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-application-is-loading-injection-token" took 49.1 ms.
+
+Individual runnables took:
+- cluster-common:storage-initialization                    	44.6 ms
+- local-storage-feature:run-initialization-of-local-storage	43.3 ms
+- user-preferences:storage-initialization                  	40.4 ms
+- lens-core-renderer:initialize-lens-local-storage-state   	5.6 ms 
+- messaging:start-listening-of-channels                    	0.3 ms 
+- chart-plugins:register-annotation-injectable             	0 ms   
+- chart-plugins:register-highest-max-injectable            	0 ms   
+- chart-plugins:register-zoom-plugin-injectable            	0 ms   
+- chart-feature:register-chart-injectable                  	0 ms   
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-frame-starts-first" took 9.6 ms.
+
+Individual runnables took:
+- internal-proxy-renderer:setup-lens-proxy-certificate	9.1 ms
+- lens-core-renderer:preload-terminal-fonts           	7.4 ms
+- lens-core-renderer:configure-mobx                   	0.1 ms
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-cluster-frame-starts-first" took 0.1 ms.
+
+Individual runnables took:
+
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-frame-starts-second" took 5.9 ms.
+
+Individual runnables took:
+- lens-core-renderer:setup-cluster-state-sync                                    	5.3 ms
+- theme-renderer-feature:initialize-system-theme-type                            	5.2 ms
+- lens-core-renderer:setup-system-ca                                             	4.8 ms
+- lens-core-renderer:enabled-extensions-persistent-storage-version-initialization	4.7 ms
+- lens-core-renderer:provide-initial-values-for-sync-boxes                       	4.5 ms
+- lens-core-renderer:init-file-system-provisioner-store                          	0.6 ms
+- lens-core-renderer:load-monaco-themes                                          	0.2 ms
+- lens-core-renderer:setup-logging-for-navigation                                	0.2 ms
+- lens-core-renderer:setup-root-mac-classname                                    	0 ms  
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 Loading items Object
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "before-cluster-frame-starts-second" took 2.4 ms.
+
+Individual runnables took:
+- lens-core-renderer:setup-auto-registration                           	2.2 ms
+- lens-core-renderer:wait-for-cluster-to-be-ready-during-start-of-frame	0.1 ms
+index.js:70 [EXTENSIONS-LOADER]: auto initializing extensions
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "on-load-of-application" took 23.2 ms.
+
+Individual runnables took:
+- main-view-feature:start-for-start-updating-on-selected-tab-change-handlers           	22 ms  
+- lens-id-auth:clear-invalid-tokens-on-load                                            	20.9 ms
+- lens-core-renderer:start-frame                                                       	19.3 ms
+- create-resource-tab-feature:migrate-all-create-resource-tab-data-on-application-start	15.5 ms
+- edit-resource-tab-feature:migrate-all-edit-resource-tab-data-on-application-start    	15.4 ms
+- terminal-dock-tab:migrate-all-terminal-dock-tab-data-on-application-start            	15.4 ms
+- lens-id:initialize-auth-token-store-runnable                                         	14.9 ms
+- upgrade-chart:migrate-all-upgrade-chart-tab-data-on-application-start                	14.8 ms
+- install-helm-chart-tab-feature:migrate-all-install-helm-tab-data-on-application-start	14.8 ms
+- pod-logs-feature:migrate-all-pod-logs-tab-data-on-application-start                  	14.7 ms
+- lens-id:initialize-lens-cloud-status-store-runnable                                  	14.3 ms
+- cluster-manager-renderer:start-emitting-telemetry-on-load                            	10.5 ms
+- preferences-for-renderer:start-for-active-page-id-telemetry-emitter                  	9.9 ms 
+- kubernetes-resources:migrate-legacy-local-storage-data-to-persisted-state            	9.7 ms 
+- lens-core-renderer:updating-is-enabled-initialization                                	9.3 ms 
+- cluster-page-feature:start-for-subscribe-dependent-stores                            	8.8 ms 
+- local-storage-feature:write-changed-local-storage                                    	8.6 ms 
+- main-view-feature:initialize-running-on-selected-tab-change                          	2 ms   
+- main-view-feature:remove-corrupted-tabs-on-startup                                   	1.4 ms 
+- lens-core-renderer:load-legacy-extensions-after-start-frame                          	0.2 ms 
+index.js:70 [RUN-MANY-PERFORMANCE-LOGGING]: Running runnables for "after-application-is-loaded-injection-token" took 15.1 ms.
+
+Individual runnables took:
+- release-notes-renderer:show-release-notes-on-startup                     	12.6 ms
+- survey-renderer-feature:start-for-identify-user-on-access-token-change   	9.1 ms 
+- initial-navigator-expansion:expand-initial-navigator-folders-on-startup  	6.8 ms 
+- react-application:start-for-render-application-when-application-is-ready 	5.7 ms 
+- telemetry-feature:start-for-daily-events                                 	5.7 ms 
+- main-view-feature:start-for-select-tab-first-visible-tab-when-tabs-change	5.6 ms 
+- entity-aggregator-renderer:migration-for-entity-aggregator-timing        	5.5 ms 
+- lens-id-auth:start-for-close-tabs-on-unregister                          	5.5 ms 
+- terminal-dock-tab:ensure-initial-terminal-tab                            	5.4 ms 
+- telemetry-use-cases:start-for-general-app-data-reporter                  	5.4 ms 
+- welcome-for-renderer:show-welcome-page-on-startup                        	5.3 ms 
+- telemetry-use-cases:after-app-load-check-arm-64-translation              	5.3 ms 
+- demo-cluster-feature:start-for-ensure-demo-cluster-access-after-startup  	1.2 ms 
+- kube-applications:application-telemetry-sender-start                     	1.1 ms 
+- lens-id:setup-running-of-on-authenticated-callbacks                      	0.1 ms 
+- application-electron-renderer-feature:closing-of-application             	0 ms   
+- chart-plugins:register-moment-adapter-injectable                         	0 ms   
+- lens-spaces-renderer:check-refresh-token-validity                        	0 ms   
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 Loading items Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [INTERNAL-PROXY]: watch (namespace-1) started /api/v1/namespaces?watch=1&resourceVersion=1766648461227171000
+index.js:70 watchNamespace starting Object
+index.js:70 [KUBE-API-SPECIFICS]: watch (namespace-1) started /api/v1/namespaces?watch=1&resourceVersion=1766648461330877000
+index.js:70 watchNamespace starting Object
+index.js:70 [KUBE-API-SPECIFICS]: watch (customresourcedefinition-1) started /apis/apiextensions.k8s.io/v1/customresourcedefinitions?watch=1&resourceVersion=1766648461704434000
+index.js:70 [KUBE-API-SPECIFICS]: watch (namespace-1) aborted /api/v1/namespaces?watch=1&resourceVersion=1766648461330877000
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 [KUBE-OBJECT-STORE-SUBSCRIBER]: Loading and then subscribing to store Object
+index.js:70 Loading items Object
+index.js:70 watchNamespace starting Object
+index.js:70 [KUBE-API-SPECIFICS]: watch (namespace-2) started /api/v1/namespaces?watch=1&resourceVersion=1766648584650554000
+index.js:72 [TOKEN-REFRESHER-FOR-RENDERER]: Failed to refresh token Timeout awaiting 'request' for 6000ms TimeoutError: Timeout awaiting 'request' for 6000ms
+    at ClientRequest.<anonymous> (index.js:970:65)
+    at Object.onceWrapper (node:events:634:26)
+    at ClientRequest.emit (node:events:531:35)
+    at t.emit (index.js:43:20)
+    at emitErrorEvent (node:_http_client:105:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at y (timed-out.js:36:25)
+error @ index.js:72
+log @ index.js:88
+b._write @ modern.js:90
+N @ _stream_writable.js:390
+(anonymous) @ _stream_writable.js:381
+O.write @ _stream_writable.js:302
+j @ _stream_readable.js:629
+emit @ node:events:531
+Y @ _stream_readable.js:279
+N @ _stream_readable.js:262
+O.push @ _stream_readable.js:228
+M.push @ _stream_transform.js:132
+value @ logger.js:311
+M._read @ _stream_transform.js:166
+M._write @ _stream_transform.js:155
+N @ _stream_writable.js:390
+(anonymous) @ _stream_writable.js:381
+O.write @ _stream_writable.js:302
+value @ logger.js:258
+Object.keys.forEach.A.<computed> @ create-logger.js:116
+(anonymous) @ index.js:102
+(anonymous) @ index.js:55
+processTicksAndRejections @ node:internal/process/task_queues:105

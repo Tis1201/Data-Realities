@@ -1,0 +1,119 @@
+# Dependencies
+**/node_modules
+**/user-data-dir
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+workings/
+
+.env.dev
+
+.build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+*.sqlite3-journal
+prisma/dev.db
+prisma/dev.db-*
+
+
+static/uploads
+
+whatsapp-media
+
+docker/prisma
+
+# SvelteKit
+/.svelte-kit
+/build
+/package
+.env
+.env.*
+!.env.example
+!.env.test
+
+!.env.prod
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Testing
+/coverage
+/playwright-report
+/test-results
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+
+# Production
+/build
+.output
+.vercel
+.netlify
+.cloudflare
+/dist
+
+# IDEs and editors
+/.idea
+/.vscode
+*.swp
+*.swo
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+
+# WhatsApp auth files
+/whatsapp-auth/
+whatsapp-auth/
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+*.pem
+.vercel
+.env*.local
+
+# Optional
+*.log
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+.node_repl_history
+
+prisma/dev.db
+
+# windsurf rules
+# .windsurfrules
+__pycache__/
+*.pyc
+
+/TODO/*
+
+# Design System Dev Showcase (local only, not for production)
+src/routes/dev/ui
+
+# Design System Development Files (local only, for agent tasks)
+.cursorrules
+scripts/validate-design-system.sh
+src/lib/design-system/COMPONENT_AUDIT.md
+src/lib/design-system/WORKFLOW.md
+
+# Wrangler local state
+.wrangler/

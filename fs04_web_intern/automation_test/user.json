@@ -1,0 +1,39 @@
+{
+  "cookies": [
+    {
+      "name": "auth_session",
+      "value": "hm2kvbigain5uyizticnbkx6dtv424vliqxqwdvh",
+      "domain": "app-dev-v2.datarealities.com",
+      "path": "/",
+      "expires": 1778035851.598233,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "current_account_id",
+      "value": "cmlhwqca4000y8sicue7x9f1q",
+      "domain": "app-dev-v2.datarealities.com",
+      "path": "/",
+      "expires": 1778035851.92759,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app-dev-v2.datarealities.com",
+      "localStorage": [
+        {
+          "name": "sidebarScrollPosition",
+          "value": "0"
+        },
+        {
+          "name": "sidebarExpandedGroups",
+          "value": "{}"
+        }
+      ]
+    }
+  ]
+}

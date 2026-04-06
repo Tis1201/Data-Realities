@@ -1,0 +1,3 @@
+[submodule "src/lib/components/ui_components_sveltekit"]
+	path = src/lib/components/ui_components_sveltekit
+	url = git@bitbucket-datar:datarealities/ui_components_sveltekit.git

@@ -35,6 +35,11 @@ module.exports = {
             name: 'Test factory token',
             hardwareModel: 'GeForce',
             firmwareVersion: '1.0',
+        },
+        resources: {
+            url: 'https://app-dev-v2.datarealities.com/user/resources',
+            name: 'Test Resource',
+            file: './static/test-file.zip',
         }
     }
 };
